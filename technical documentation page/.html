@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Technical Documentation</title>
+    <link rel="stylesheet" href="styles.css"> 
+</head>
+<body>
+    <nav id="navbar">
+        <header>Web Development Technologies</header>
+        <a href="#HTML_Basics" class="nav-link">HTML Basics</a>
+        <a href="#CSS_Fundamentals" class="nav-link">CSS Fundamentals</a>
+        <a href="#JavaScript_Introduction" class="nav-link">JavaScript Introduction</a>
+        <a href="#Web_Frameworks" class="nav-link">Web Frameworks</a>
+        <a href="#Version_Control" class="nav-link">Version Control</a>
+    </nav>
+    <main id="main-doc">
+        <section class="main-section" id="HTML_Basics"> 
+            <header>HTML Basics</header>
+            <p>HTML (HyperText Markup Language) is the standard markup language used for creating web pages and applications.</p>
+            <p>HTML defines the structure of a web page by using a series of elements and attributes.</p>
+            <p>Here are some basic HTML elements:</p>
+            <ul>
+                <li>&lt;html&gt; - The root element of an HTML document</li>
+                <li>&lt;head&gt; - Contains meta information about the document</li>
+                <li>&lt;body&gt; - Contains the main content of the web page</li>
+                <li>&lt;h1&gt; to &lt;h6&gt; - Heading elements of different sizes</li>
+                <li>&lt;p&gt; - Paragraph element</li>
+            </ul>
+            <code>&lt;!DOCTYPE html&gt;
+            &lt;html lang="en"&gt;
+            &lt;head&gt;
+                &lt;title&gt;My Web Page&lt;/title&gt;
+            &lt;/head&gt;
+            &lt;body&gt;
+                &lt;h1&gt;Welcome to my website!&lt;/h1&gt;
+                &lt;p&gt;This is a simple HTML page.&lt;/p&gt;
+            &lt;/body&gt;
+            &lt;/html&gt;</code>
+        </section>
+
+        <section class="main-section" id="CSS_Fundamentals"> 
+            <header>CSS Fundamentals</header>
+            <p>CSS (Cascading Style Sheets) is a language used to style and format the layout of a web page.</p>
+            <p>CSS allows you to control the appearance of elements like fonts, colors, backgrounds, and layouts.</p>
+            <p>Here are some basic CSS properties:</p>
+            <ul>
+                <li>color - Sets the text color of an element</li>
+                <li>font-family - Specifies the font family for an element</li>
+                <li>background-color - Sets the background color of an element</li>
+                <li>margin - Sets the margin around an element</li>
+                <li>padding - Sets the padding inside an element</li>
+            </ul>
+            <code>body {
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 20px;
+            }
+
+            h1 {
+                color: blue;
+                text-align: center;
+            }</code>
+        </section>
+
+        <section class="main-section" id="JavaScript_Introduction"> 
+            <header>JavaScript Introduction</header>
+            <p>JavaScript is a high-level, interpreted programming language that adds interactivity to web pages.</p>
+            <p>JavaScript can be used to manipulate the content of a web page, respond to user events, and create dynamic web applications.</p>
+            <p>Here's a simple example of JavaScript:</p>
+            <code>function greetUser() {
+                alert("Hello, world!");
+            }
+
+            greetUser();</code>
+            <p>JavaScript also allows you to work with data structures like arrays and objects.</p>
+            <code>const myArray = [1, 2, 3];
+            console.log(myArray[0]); // Output: 1
+
+            const myObject = { name: "John", age: 30 };
+            console.log(myObject.name); // Output: John</code>
+        </section>
+
+        <section class="main-section" id="Web_Frameworks"> 
+            <header>Web Frameworks</header>
+            <p>Web frameworks provide a structure and set of tools for building web applications more efficiently.</p>
+            <p>Popular web frameworks include:</p>
+            <ul>
+                <li>React</li>
+                <li>Angular</li>
+                <li>Vue.js</li>
+            </ul>
+            <p>Frameworks often include features like routing, state management, and data fetching.</p>
+            <p>Here's a simple example of a React component:</p>
+            <code>function Welcome(props) {
+              return <h1>Hello, {props.name}</h1>;
+            }</code>
+        </section>
+
+        <section class="main-section" id="Version_Control"> 
+            <header>Version Control</header>
+            <p>Version control systems (like Git) are used to track changes to code over time.</p>
+            <p>Git allows developers to collaborate on projects more effectively by enabling them to work on different branches and merge their changes.</p>
+            <p>Here are some key Git commands:</p>
+            <ul>
+                <li>git init - Creates a new Git repository</li>
+                <li>git add - Stages changes for commit</li>
+                <li>git commit - Creates a snapshot of the current state of the repository</li>
+                <li>git push - Pushes changes to a remote repository</li>
+            </ul>
+            <p>Git also provides features like branching, merging, and resolving conflicts.</p>
+            <code>git checkout -b new-feature // Create a new branch
+            git merge main // Merge changes from the main branch</code>
+        </section>
+    </main>
+</body>
+</html>

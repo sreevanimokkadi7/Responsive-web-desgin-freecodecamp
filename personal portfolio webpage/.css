@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+  }
+  
+  #welcome-section {
+    height: 100vh; /* Set height to viewport height */
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #navbar {
+    position: fixed; /* Make navbar sticky */
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 1rem;
+  }
+  
+  /* Media Query (Example) */
+  @media (max-width: 768px) {
+    #welcome-section {
+      height: auto; /* Adjust height for smaller screens */
+    }
+  }

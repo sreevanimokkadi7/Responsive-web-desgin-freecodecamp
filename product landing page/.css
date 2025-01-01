@@ -1,0 +1,14 @@
+@media (max-width: 768px) {
+    /* Specific styles for smaller screens */
+}
+#hero {
+    display: flex; /* Enable Flexbox */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+}
+#header {
+  position: fixed; /* Fix the header to the top */
+  top: 0; /* Position it at the very top */
+  width: 100%; /* Make it span the entire width */
+  /* Other styles for the header */
+}
